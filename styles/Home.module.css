@@ -35,7 +35,7 @@
   transition: all 0.2s;
 }
 
-.silly:hover {
+.silly:active {
   rotate: 2deg;
   color: #fe0244;
 }
@@ -88,6 +88,6 @@
 
 .bandcampentry {
   border: 0;
-  width: 20rem;
+  width: 50%;
   height: 42px;
 }

@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className={styles.navitem}>
           <Link href="/">home</Link>
         </div>
-        <div className={styles["navitem"] + " " + styles["shrink"]}>
+        <div className={styles["navitem"]}>
           <Link href="/about">about</Link>
         </div>
       </div>

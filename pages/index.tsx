@@ -19,19 +19,27 @@ export default function Home() {
             <p>
               So, who am I? I'm Robin, a third year student at AUT with a love
               of computers, and all the fun stuff you can do with them. My main
-              interests within the field are system level programming,
+              interest within the field is system level programming,
               particularly in C and Rust! While web development is definitely
               not my specialty, I do really enjoy a lot of aspects of it and
               can't wait to learn more!
             </p>
             <p>
-              I am proudly genderqueer (labels are hard), love the local music
-              scene in Auckland, and my toxic trait is that I bully windows
-              users into trying Linux.
+              I am proudly genderqueer / nonbinary / trans (labels are hard), I
+              love the local music scene in Auckland, and my toxic trait is that
+              I bully windows users into trying Linux.
+              <br />
+              Seriously. Try linux. you're gonna love it.
             </p>
           </div>
           <div className={styles.profile}>
-            <Image src="/out.png" width={200} height={200} alt={""} />
+            <Image
+              className={styles.silly}
+              src="/out.png"
+              width={200}
+              height={200}
+              alt={"A photo of me doing something cool (existing)"}
+            />
             <p>Robin (she/they/he/it)</p>
           </div>
         </div>
