@@ -28,8 +28,6 @@ export default function Home() {
               I am proudly genderqueer / nonbinary / trans (labels are hard), I
               love the local music scene in Auckland, and my toxic trait is that
               I bully windows users into trying Linux.
-              <br />
-              Seriously. Try linux. you're gonna love it.
             </p>
           </div>
           <div className={styles.profile}>

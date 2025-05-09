@@ -25,6 +25,14 @@
   padding: 0;
 }
 
+@media (max-width: 720px) {
+  .content {
+    width: 100% !important;
+    flex-direction: column;
+    margin: 1rem;
+  }
+}
+
 .silly {
   background: none;
   color: inherit;
@@ -43,19 +51,13 @@
 .navbar {
   position: sticky;
   top: 0;
+  padding-bottom: 1rem;
   overflow: hidden;
   background-color: #2a2b36;
-}
-
-.navbarcontents {
-  margin-left: 16%;
-  width: 50%;
-  padding-left: 0;
-  padding: 0 2rem;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: flex-start;
   transition: all 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navitem {
@@ -90,4 +92,13 @@
   border: 0;
   width: 50%;
   height: 42px;
+}
+
+.responseForm {
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
